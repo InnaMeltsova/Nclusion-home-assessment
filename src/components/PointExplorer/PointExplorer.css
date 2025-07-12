@@ -1,0 +1,108 @@
+.point-explorer {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.point-explorer h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.control-label {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+.control-slider {
+  flex: 1;
+}
+
+.control-input {
+  width: 80px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pan-controls {
+  display: flex;
+  gap: 20px;
+}
+
+.pan-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.pan-label {
+  min-width: 80px;
+  font-weight: 500;
+}
+
+.reset-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.calculating-indicator {
+  color: #666;
+  font-style: italic;
+}
+
+.view-info {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #e9ecef;
+}
+
+.canvas-container {
+  text-align: center;
+}
+
+.canvas {
+  border: 1px solid #ccc;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.canvas-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
